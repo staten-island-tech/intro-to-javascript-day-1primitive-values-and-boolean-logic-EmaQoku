@@ -68,7 +68,7 @@ if(lactose === "lactose"){
     console.log( "one almond milk")
 }
     
-let temp = "90"
+let temp = "68"
 if (temp <= 72 && temp >= 68){
     console.log("perfect")
 }
