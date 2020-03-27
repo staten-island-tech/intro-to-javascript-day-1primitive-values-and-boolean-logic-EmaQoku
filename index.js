@@ -59,7 +59,7 @@ if(light === "green"){
 } 
 
 //coffee
-let lactose = "one lactose"
+/* let lactose = "one lactose"
 if(lactose === "lactose"){
     console.log("almond milk")
 } else if ( lactose === "not lactose"){
@@ -81,3 +81,76 @@ if (temp <= 76 && temp >= 73){
 if (temp > 76){
     console.log("too hot")
 }
+*/
+
+////functions
+/* function test() {
+    console.log("TEST");
+}
+test();
+
+function argument (argument) {
+    console.log(argument);
+}
+
+const add = function(x, y){
+    return x + y; //immediately ends the function
+
+};
+console.log(add(10, 3)); */
+/*const hello = function() {
+    alert("hello");
+};
+
+const bye = function() {
+    alert("bye");
+};
+
+const beatles = function() {
+    hello();
+    bye();
+    hello();
+    bye();
+};
+beatles();
+*/
+
+////scope
+
+/*function makeFunc(){
+    //closure
+    //function scope
+    const name = "Sun"; 
+    function displayName(){
+        alert(name); //still has access to outer variable name
+    }
+    return displayName; //returning the inner function
+}
+
+const myFunc = makeFunc(); //closure
+makeFunc();
+
+*/
+
+/////arrays
+const names = [ 
+    "Diego" , 
+    "Frid" , 
+    "Christian" , 
+    "Valerie" ,
+    "Haoran" , 
+    "Brian" , 
+    "Caroline"
+];
+//names.push("Caroline");
+//let newNames = names.unshift("Brian");
+names.forEach(name => console.log (name));
+/*names.filter(//somecode).forEach( => console.log (el))
+*/
+///spread operator
+const numbers = [1, 2, 3];
+
+const add = function(x, y, z){
+    return x + y + z;
+};
+console.log(add(...numbers));
