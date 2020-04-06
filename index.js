@@ -154,3 +154,15 @@ const add = function(x, y, z){
     return x + y + z;
 };
 console.log(add(...numbers));
+
+
+////challenges 
+
+///challenge 1
+
+
+
+//challenge 2
+
+let students =  ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+console.log(students.some(name => name == "Savva" || name == "Alan"));
